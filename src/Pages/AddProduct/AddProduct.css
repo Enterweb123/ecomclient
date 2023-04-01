@@ -1,0 +1,80 @@
+.Productlist{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Productlist input{
+ width: 140px;
+ height: 30px;
+ border: 1px solid darkblue;
+ outline: none;
+ border-radius: 5px;
+ padding-left: 5px;
+}
+
+
+.content-table {
+    margin: 25px;
+    font-size: 15px;
+
+    width: 400px;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    border-spacing: 0;
+}
+
+
+.content-table {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+table,tr,td ,th{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+   } 
+
+.add-product{
+    outline: none;
+    border: none;
+    
+    padding: 5px;
+    align-items: center;
+    background-color: green;
+    color: #ffffff;
+    border-radius: 5px;
+   }
+
+.delete-button{
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    
+    background-color: rgb(191, 41, 0);
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button{
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+
+    background-color: rgb(238, 183, 0);
+    color: #101010;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.editformbody{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.editform_one img{
+    height: 400px;
+    width : auto;
+    border-radius: 10px;
+}
+
+.editForm_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.editForm_two input{
+    width: 500px;
+    height: 40px;
+    border: 1px solid darkblue;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.editForm_two .product_details{
+    width: 500px;
+    border: 1px solid darkblue;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+
+.editForm_two button{
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+
+    background-color: rgb(238, 183, 0);
+    color: #101010;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn_groups{
+    display: flex;
+}
+
+.editformbody .Link{
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+
+    background-color: rgb(204, 126, 0);
+    color: #f7f7f7;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
